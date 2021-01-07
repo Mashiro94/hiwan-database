@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>60bb4937-bc0a-436e-bdad-d8f2949135eb.SCHEMA:hiwan</OriginalElement>
+  <nodes>
+    <node x="198.75" y="23.0">60bb4937-bc0a-436e-bdad-d8f2949135eb.TABLE:hiwan.user</node>
+    <node x="0.0" y="485.0">60bb4937-bc0a-436e-bdad-d8f2949135eb.TABLE:hiwan.friend_relation</node>
+    <node x="1.75" y="0.0">60bb4937-bc0a-436e-bdad-d8f2949135eb.TABLE:hiwan.event</node>
+    <node x="0.0" y="314.0">60bb4937-bc0a-436e-bdad-d8f2949135eb.TABLE:hiwan.event_participate</node>
+    <node x="252.75" y="325.5">60bb4937-bc0a-436e-bdad-d8f2949135eb.TABLE:hiwan.event_like</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="60bb4937-bc0a-436e-bdad-d8f2949135eb.TABLE:hiwan.event_like" target="60bb4937-bc0a-436e-bdad-d8f2949135eb.TABLE:hiwan.user">
+      <point x="35.5" y="-51.5" />
+      <point x="53.5" y="109.0" />
+    </edge>
+    <edge source="60bb4937-bc0a-436e-bdad-d8f2949135eb.TABLE:hiwan.event_participate" target="60bb4937-bc0a-436e-bdad-d8f2949135eb.TABLE:hiwan.user">
+      <point x="46.0" y="-63.0" />
+      <point x="138.0" y="294.0" />
+      <point x="252.25" y="294.0" />
+      <point x="-53.5" y="109.0" />
+    </edge>
+    <edge source="60bb4937-bc0a-436e-bdad-d8f2949135eb.TABLE:hiwan.event_like" target="60bb4937-bc0a-436e-bdad-d8f2949135eb.TABLE:hiwan.event">
+      <point x="-35.5" y="-51.5" />
+      <point x="288.25" y="284.0" />
+      <point x="134.5" y="284.0" />
+      <point x="44.25" y="132.0" />
+    </edge>
+    <edge source="60bb4937-bc0a-436e-bdad-d8f2949135eb.TABLE:hiwan.event_participate" target="60bb4937-bc0a-436e-bdad-d8f2949135eb.TABLE:hiwan.event">
+      <point x="-46.0" y="-63.0" />
+      <point x="-44.25" y="132.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.196988906497623" x="206.5" y="239.60373361578178" />
+  <SelectedNodes />
+  <Categories>
+    <Category>键列</Category>
+    <Category>列</Category>
+    <Category>虚拟外键</Category>
+  </Categories>
+</Diagram>
+
